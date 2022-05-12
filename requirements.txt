@@ -1,0 +1,7 @@
+requests
+gunicorn
+flask
+logzero
+PyYAML
+tqdm
+beautifulsoup4

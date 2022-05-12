@@ -1,0 +1,226 @@
+{
+  "confirm(release_date_from={value1},release_date_to={value2})": [
+    "released between {value1} and {value2}"
+  ],
+  "confirm(release_date_from={value})": [
+    "released on {value} or later"
+  ],
+  "confirm(release_date_to={value})": [
+    "released on {value} or earlier"
+  ],
+  "confirm(user_rating_from={value1},user_rating_to={value2})": [
+    "rating between {value1} and {value2}"
+  ],
+  "confirm(user_rating_from={value})": [
+    "rating at least {value}"
+  ],
+  "confirm(user_rating_to={value})": [
+    "rating at most {value}"
+  ],
+  "confirm(num_votes_from=100000)": [
+    "extremely popular"
+  ],
+  "confirm(num_votes_from=10000)": [
+    "very popular"
+  ],
+  "confirm(num_votes_from=1000)": [
+    "quite popular"
+  ],
+  "confirm(num_votes_from=100)": [
+    "average popular"
+  ],
+  "confirm(num_votes_from=10)": [
+    "not much popular"
+  ],
+  "confirm(num_votes_to=10)": [
+    "unknown (very low popularity)"
+  ],
+  "confirm(genre={value})": [
+    "genre {value}"
+  ],
+  "confirm(group=oscar_winner)": [
+    "Oscar winner"
+  ],
+  "confirm(group=emmy_winner)": [
+    "Emmy winner"
+  ],
+  "confirm(group=golden_globe_winner)": [
+    "Golden Globe winner"
+  ],
+  "confirm(group=razzie_winner)": [
+    "Razzie winner"
+  ],
+  "confirm(group=oscar_nominee)": [
+    "Oscar nominee"
+  ],
+  "confirm(group=emmy_nominee)": [
+    "Emmy nominee"
+  ],
+  "confirm(group=golden_globe_nominee)": [
+    "Golden Globe nominee"
+  ],
+  "confirm(group=razzie_nominee)": [
+    "Razzie nominee"
+  ],
+  "confirm(country={value})": [
+    "from {value}"
+  ],
+  "confirm(keywords={value})": [
+    "keyword/s \"{value}\""
+  ],
+  "confirm(written_by={value})": [
+    "written by {value}"
+  ],
+  "confirm(directed_by={value})": [
+    "directed by {value}"
+  ],
+  "confirm(starring={value1},starring={value2})": [
+    "starring {value1} and {value2}"
+  ],
+  "confirm(starring={value})": [
+    "starring {value}"
+  ],
+  "confirm(runtime_from={value1},runtime_to={value2})": [
+    "length between {value1} and {value2}"
+  ],
+  "confirm(runtime_from={value})": [
+    "length at least {value}"
+  ],
+  "confirm(runtime_to={value})": [
+    "length at most {value}"
+  ],
+  "dont_understand()": [
+    "I'm sorry, but I didn't understand you. Please try again or ask for help.\n"
+  ],
+  "hello()": [
+    "Hello, I'm here to recommend you some random movie.\n\nStart by specifying some of the parameters (genre, age, rating, popularity, length, country, cast/crew, received awards/nominations) of your choice (you can specify more of them in a single sentence) and ask for search.\n\nThen you can ask for movie's detail or request next random movie.\n\nNote: if you're first-time user, ask for help.",
+    "Hi, I'm here to recommend you some random movie.\n\nStart by specifying some of the parameters (genre, age, rating, popularity, length, country, cast/crew, received awards/nominations) of your choice (you can specify more of them in a single sentence) and ask for search.\n\nThen you can ask for movie's detail or request next random movie.\n\nNote: if you're first-time user, ask for help."
+  ],
+  "bye()": [
+    "Goodbye! ",
+    "Bye! ",
+    "Bye :) "
+  ],
+  "inform(start_again)": [
+    "Understood, starting again...\n\nHi, I'm here to recommend you some random movie. Start by specifying some of the parameters (genre, age, rating, popularity, length, country, cast/crew, received awards/nominations) of your choice and ask for search. Then you can ask for movie's detail or request next random movie. Note: if you're first-time user, ask for help."
+  ],
+  "inform(help)": [
+    "Help: At first, you would want to specify parameters (genre, age, rating, popularity, length, country, cast/crew); you can specify more parameters in a single sentence. To see which words can be used for specifying them, ask for options of particular parameter (e.g. 'possibilities of popularity') or all of them at once (e.g. 'tooltip all') or for the latest parameter that the bot asked you about (e.g. 'list options').\n\nWhen you're asked if you want to specify some parameter, feel free to deny (also '-' works).\n\nSearch is performed when you ask for it (include 'search' in your sentence) or when all parameters have been specified.\n\nWhen the the search is successful (note: search can take up to 1-2 minutes in worst cases), you can ask for info - e.g. 'tell me details' will give all the details, but you can specify (year, runtime, genre, director, writer, actors, plot, rating), e.g. 'what is the plot?'.\n\nYou can also ask for next/another random movie, and ask to start again."
+  ],
+  "inform(list_options=release_date)": [
+    "For movie age, you can specify the period using words [pre-war: -1939, very old: 1939-1990, old: 1990-2005, aging: 2005-2015, new: 2015-2020, newest: 2020-2022], or specify '<year> or older' or '<year> or newer'.\n"
+  ],
+  "inform(list_options=user_rating)": [
+    "For movie rating, you can use words [best rating: 9.0+, great rating: 8.0-10.0, good rating: 6.5-8.5, average rating: 5.0-7.0, mediocre rating: 3.0-5.5, bad rating: 1.0-3.5], or specify '<rating> or more/better/less/worse' or 'better/worse than <rating>'.\n"
+  ],
+  "inform(list_options=num_votes)": [
+    "For popularity, use words [extremely popular, very popular, quite popular, average popular, not much popular, unknown].\n"
+  ],
+  "inform(list_options=genre)": [
+    "For genre, use one (or more - will restrict to movies that have all the specified genres at once) of the words [action, adventure, animation, biography, comedy, crime, documentary, drama, family, fantasy, film-noir, game-show, history, horror, music, musical, mystery, news, reality-tv, romance, sci-fi, sport, talk-show, thriller, war, western]. You can also specify that you don't want some genre, in this case put 'not' or 'no' before the genre name.\n"
+  ],
+  "inform(list_options=runtime)": [
+    "For length, use words [very short: -20 min, short: 20-50 min, shorter: 50-80 min, medium: 80-120 min, longer: 120-150 min, long: 150+ min].\n"
+  ],
+  "inform(list_options=group)": [
+    "For awards, use any combination of [nominated, won/winner/awarded/received] and [Oscar, Emmy, Golden Globe, Razzie] in the sentence.\n"
+  ],
+  "inform(list_options=country)": [
+    "For country of origin, you can specify the country as a noun (e.g. Italy) or an adjective (e.g. Italian). List of possible countries: [Australia, Austria, Belarus, Brazil, China, Czechia, Czechoslovakia, France, Greece, Hong Kong, Iceland, India, Italy, Japan, New Zealand, North Korea, Poland, Russia, Slovakia, South Korea, Spain, Ukraine, United Kingdom, Unites States].\n"
+  ],
+  "inform(list_options=with_cast_crew)": [
+    "For cast/crew you can specify 'written by <name>', 'directed by <name>', 'starring <name>' and 'starring <name> and <name' with <name> being 1 or 2 words.\n"
+  ],
+  "inform(list_options=keywords)": [
+    "For keywords, you can put the keyword/keyword phrase in quotes (e.g. \"second world war\"). You can use more keywords/phrases and separate them by comma (e.g. \"snow,scotland\").\n"
+  ],
+  "inform(failure=not_enough_info)": [
+    "Please specify some parameters before asking for search. "
+  ],
+  "inform(failure=cant_tell_movie_info)": [
+    "There is no currently found movie I could tell you info about. "
+  ],
+  "inform(failure=next_movie)": [
+    "I couldn't find another movie. Maybe start again? "
+  ],
+  "inform(failure=search)": [
+    "I'm sorry, but I couldn't find any movie that meets your restrictions. Please write them again and try using less parameters this time :) "
+  ],
+  "inform(success=search)": [
+    "The search has been successful :) ",
+    "The search has been completed! :) ",
+    "Luckily, I found something! :) "
+  ],
+  "inform(success=next_movie)": [
+    "After rolling the dice, I picked something else for you :) ",
+    "Let me pick some different movie... Complete.\n",
+    "Searching for another movie... Done.\n",
+    "Don't worry, I've got another option for you! "
+  ],
+  "inform(Title={value1},Url={value2})": [
+    "This time, it's '{value1}', available at: {value2} ",
+    "It's '{value1}', you can find it on: {value2} ",
+    "The film's called '{value1}', you can find it on: {value2} ",
+    "The movie's name is '{value1}', available at: {value2} "
+  ],
+  "inform(Title={value1},Year={value2},Runtime={value3},Genre={value4},Writer={value5},Director={value6},Actors={value7},imdbRating={value8},Plot={value9})": [
+    "The movie '{value1}' from year {value2} is {value3} long. It's genres are {value4}. It's written by {value5}, directed by {value6}, starring {value7}. It's rating is {value8}. The plot is: '{value9}'."
+  ],
+  "inform(Year={value})": [
+    "The movie is from year {value}. "
+  ],
+  "inform(Runtime={value})": [
+    "It's {value} long. "
+  ],
+  "inform(Genre={value})": [
+    "It's genres are {value}. "
+  ],
+  "inform(Writer={value})": [
+    "It's written by {value}. "
+  ],
+  "inform(Director={value})": [
+    "It's written by {value}. "
+  ],
+  "inform(Actors={value})": [
+    "It's starring {value}. "
+  ],
+  "inform(imdbRating={value})": [
+    "It's rating is {value}. "
+  ],
+  "inform(Plot={value})": [
+    "The plot is: '{value}'. "
+  ],
+  "ask(genre)": [
+    "Would you like to specify genre/s?",
+    "What is your preferred genre/s?"
+  ],
+  "ask(release_date)": [
+    "Would you like to specify age of the movie?",
+    "What is your preferred movie age?"
+  ],
+  "ask(user_rating)": [
+    "Would you like to specify rating?",
+    "What is your preferred rating?"
+  ],
+  "ask(num_votes)": [
+    "Would you like to specify popularity?",
+    "What is your preferred popularity?"
+  ],
+  "ask(runtime)": [
+    "Would you like to specify length?",
+    "What is your preferred length?"
+  ],
+  "ask(country)": [
+    "Would you like to specify country of the origin?",
+    "What is your preferred country of the origin?"
+  ],
+  "ask(with_cast_crew)": [
+    "Would you like to specify who has written, directed or is starring in the movie?"
+  ],
+  "ask(group)": [
+    "Would you like to restrict your search to movies that were nominated to/won some (specific) awards?"
+  ],
+  "ask(keywords)": [
+    "Are there any keywords you would like to specify?"
+  ]
+}

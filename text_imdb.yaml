@@ -1,0 +1,12 @@
+---
+logging_level: "WARNING"  # not strictly required
+user_stream: "dialmonkey.input.text.ConsoleInput"  # not strictly required
+output_stream: "dialmonkey.output.text.ConsoleOutput"  # not strictly required
+components:
+  - "dialmonkey.nlu.rule_imdb.IMDbNLU"  # any component can have parameters (a dict)
+  - "dialmonkey.dst.rule.BeliefStateTracker"
+  - "dialmonkey.policy.rule_imdb.IMBdPolicy"
+  - "dialmonkey.nlg.templates_imdb.IMBdNLG":
+      templates_file: "dialmonkey/nlg/templates_imdb.json"
+break_words:
+  - "exit"
