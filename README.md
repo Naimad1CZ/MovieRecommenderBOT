@@ -1,4 +1,4 @@
-# movie-recommender-bot
+# Movie Recommender BOT
  A bot that recommends some random movie after user specifies some parameters.
 
 The `server.py` is run as the backend for the Messenger bot which you can message yourself here: https://www.facebook.com/movierecommenderbot
